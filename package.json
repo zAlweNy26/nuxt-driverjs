@@ -2,7 +2,10 @@
   "name": "nuxt-driverjs",
   "version": "1.0.0",
   "description": "Nuxt module for driver.js",
-  "repository": "zAlweNy26/nuxt-driverjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zAlweNy26/nuxt-driverjs.git"
+  },
   "license": "MIT",
   "type": "module",
   "exports": {
