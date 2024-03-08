@@ -1,20 +1,11 @@
-<!--
-Get your module up and running quickly.
-
-Find and replace all on all files (CMD+SHIFT+F):
-- Name: My Module
-- Package name: nuxt-driverjs
-- Description: My new Nuxt module
--->
-
-# My Module
+# Nuxt driver.js Module
 
 [![npm version][npm-version-src]][npm-version-href]
 [![npm downloads][npm-downloads-src]][npm-downloads-href]
 [![License][license-src]][license-href]
 [![Nuxt][nuxt-src]][nuxt-href]
 
-My new Nuxt module for doing amazing things.
+Nuxt module for the [driver.js](https://driverjs.com) library.
 
 - [✨ &nbsp;Release Notes](/CHANGELOG.md)
 <!-- - [🏀 Online playground](https://stackblitz.com/github/your-org/nuxt-driverjs?file=playground%2Fapp.vue) -->
@@ -22,37 +13,38 @@ My new Nuxt module for doing amazing things.
 
 ## Features
 
-<!-- Highlight some of the features your module provide here -->
-- ⛰ &nbsp;Foo
-- 🚠 &nbsp;Bar
-- 🌲 &nbsp;Baz
+- Helps you integrate the driver.js library
+- Provides the main $driver helper globally
+- Zero-config setup ready to go
+- TypeScript friendly
+- Super easy to use
 
 ## Quick Setup
 
 1. Add `nuxt-driverjs` dependency to your project
 
-```bash
-# Using pnpm
-pnpm add -D nuxt-driverjs
+    ```bash
+    # Using pnpm
+    pnpm add -D nuxt-driverjs
 
-# Using yarn
-yarn add --dev nuxt-driverjs
+    # Using yarn
+    yarn add --dev nuxt-driverjs
 
-# Using npm
-npm install --save-dev nuxt-driverjs
-```
+    # Using npm
+    npm install --save-dev nuxt-driverjs
+    ```
 
 2. Add `nuxt-driverjs` to the `modules` section of `nuxt.config.ts`
 
-```js
-export default defineNuxtConfig({
-  modules: [
-    'nuxt-driverjs'
-  ]
-})
-```
+    ```js
+    export default defineNuxtConfig({
+      modules: [
+        'nuxt-driverjs'
+      ]
+    })
+    ```
 
-That's it! You can now use My Module in your Nuxt app ✨
+That's it! You can now use Nuxt driver.js Module in your Nuxt app ✨
 
 ## Development
 

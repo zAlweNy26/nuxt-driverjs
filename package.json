@@ -1,7 +1,7 @@
 {
   "name": "nuxt-driverjs",
   "version": "1.0.0",
-  "description": "Nuxt module for Driver.js",
+  "description": "Nuxt module for driver.js",
   "repository": "zAlweNy26/nuxt-driverjs",
   "license": "MIT",
   "type": "module",
