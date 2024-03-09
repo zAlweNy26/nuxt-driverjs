@@ -42,6 +42,8 @@ export default defineNuxtModule<ModuleOptions>({
 
     nuxt.options.build.transpile.push(resolve('runtime'))
 
+    addImportsDir(resolve('runtime/types'))
+
     if (provide) addPlugin(resolve('runtime/plugin'))
     if (autoImport) addImportsDir(resolve('runtime/composables'))
   }

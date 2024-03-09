@@ -1,13 +1,5 @@
-import { toValue, type MaybeRefOrGetter } from '#imports'
-import { driver, type Config, type DriveStep } from 'driver.js'
-
-type DriveStepRef = Omit<DriveStep, 'element'> & {
-  element?: MaybeRefOrGetter<Element | string | undefined>
-}
-
-type ConfigRef = Omit<Config, 'steps'> & {
-  steps?: DriveStepRef[]
-}
+import { toValue, type ConfigRef, type DriveStepRef } from '#imports'
+import { driver, type DriveStep } from 'driver.js'
 
 const unrefSteps = (steps: DriveStepRef[]) => {
   return steps.map<DriveStep>((step) => {

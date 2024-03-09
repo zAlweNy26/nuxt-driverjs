@@ -12,13 +12,15 @@ const driver = useDriver()
 
 const myDiv = ref<HTMLDivElement>()
 
+const step: DriveStepRef = {
+  element: myDiv,
+  popover: {
+    title: 'Popover title',
+    description: 'Popover description'
+  }
+}
+
 const onClick = () => {
-  driver.highlight({
-    element: myDiv,
-    popover: {
-      title: 'Popover title',
-      description: 'Popover description'
-    }
-  })
+  driver.highlight(step)
 }
 </script>
